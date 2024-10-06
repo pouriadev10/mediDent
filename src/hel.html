@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <script
+      type="text/javascript"
+      src="https://secure.myhelcim.com/js/version2.js"
+    ></script>
+  </head>
+  <body>
+    <!--SCRIPT-->
+    <script
+      type="text/javascript"
+      src="https://secure.myhelcim.com/js/version2.js"
+    ></script>
+
+    <!--FORM-->
+    <form
+      name="helcimForm"
+      id="helcimForm"
+      action="your-checkout-page.php"
+      method="POST"
+    >
+      <!--RESULTS-->
+      <div id="helcimResults"></div>
+
+      <!--SETTINGS-->
+      <input type="hidden" id="token" value="4d6cac0e129115bed07de64c3bcdda6423a6e4cd" />
+      <input type="hidden" id="language" value="en" />
+
+      <!--CARD-INFORMATION-->
+      Card Token: <input type="text" id="cardToken" value="1" /><br />
+      Credit Card Number: <input type="text" id="cardNumber" value="" /><br />
+      Expiry Month: <input type="text" id="cardExpiryMonth" value="" /> Expiry
+      Year: <input type="text" id="cardExpiryYear" value="" /><br />
+      CVV: <input type="text" id="cardCVV" value="" /><br />
+
+      <!--AVS- INFORMATION-->
+      Card Holder Name: <input type="text" id="cardHolderName" value="" /><br />
+      Card Holder Address:
+      <input type="text" id="cardHolderAddress" value="" /><br />
+      Card Holder Postal Code:
+      <input type="text" id="cardHolderPostalCode" value="" /><br />
+
+      <!--OPTIONAL-AMOUNT-->
+      Amount: <input type="text" id="amount" value="100.00" /><br />
+
+      <!--BUTTON-->
+      <input
+        type="button"
+        id="buttonProcess"
+        value="Process"
+        onclick="javascript:helcimProcess();"
+      />
+    </form>
+
+  
+  </body>
+</html>

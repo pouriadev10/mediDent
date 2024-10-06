@@ -1,0 +1,286 @@
+.siderIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-bottom: 3px  !important;
+
+}
+
+.badgeSideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../assets/img/Background.png");
+    width: 210px;
+    height: 170px;
+    margin-top: 80px;
+    color: white;
+}
+
+.badgeSideWrapper {
+    padding: 15px;
+    display:flex;
+    align-items: flex-end;
+}
+
+
+.docButton {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.topbarContainer {
+    /* padding: 25px; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.greetingTopBar {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.subGreetingTopBar {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.detailTopBar {
+    color: #6B43B5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mr5p {
+    margin-right: 5%;
+}
+
+.usernameText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.topbar-button {
+    height: 40px;
+    min-width: 120px;
+    background-color: #6b43b5;
+    border-radius: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.new-cards {
+    padding-left: 100px;
+    padding-right: 85px;
+    /* padding-bottom: 150px; */
+    border-radius: 4px;
+    height: 100% !important;
+    background: #FFFFFF;
+    margin-top: 0;
+    padding-top: 100px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); */
+}
+
+.new-dashboard-content {
+    padding: 0px 25px;
+}
+
+.dashboard-card {
+    width: 100%;
+    padding: 22px;
+    background-color: rgba(223, 218, 255, 70%);
+    border-radius: 8px;
+    color: #4D3280;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.pl6 {
+    padding-left: 6px;
+}
+
+
+
+.donutCardTextTitle {
+    color: #4D3280;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.donutCardTextSubTitle {
+    color: #4D3280;
+    font-size: 12px;
+    line-height: 18px;
+    line-height: 18px;
+    margin: 0px !important;
+}
+
+.donutCardFooterText {
+    margin-left: 15px !important;
+    margin-top: 15px !important;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dollorCardTextSubTitle {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px !important;
+}
+
+.dollorCardTextTitle {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 8px !important;
+}
+
+.textHeaderNewDashboard {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.appoinment-card-dashboard {
+    margin: 15px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 1000px;
+    padding: 15px;
+    width: 100%;
+}
+
+.provider-name-dashboard {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.provider-subname-dashboard {
+    color: #636363;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.provider-rating-card {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pending-payment-plan-title {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pending-payment-card-title {
+    font-size: 12px;
+    color: #666666;
+    margin-left: 5px;
+}
+
+.pending-payment-card-subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pending-payment-card-subtitle-amount {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #15A309;
+}
+
+.active-button-payment-plan {
+    height: 32px;
+    min-width: 132px;
+    background-color: #6b43b5;
+    border-radius: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.payment-plan-card {
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.maintain-health-card {
+    width: 100%;
+    padding: 20px;
+    background: #F6F5FD;
+    border-radius: 20px;
+}
+
+.red-circle {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.green-circle {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.maintain-health-card-title {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.maintain-health-card-subtitle {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.maintain-health-card-right-part {
+    width: 80%;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+  .ant-menu .ant-menu-item.sidebar_menuitem.ant-menu-item-selected {    
+    background-color: #EEEDFA;
+    color: #7F59CE;
+}
+
+
+.font-16 {
+    font-size: 16px;
+    font-weight: 400px;
+}

@@ -1,0 +1,178 @@
+.mwf {
+  min-width: fit-content;
+}
+
+.spin {
+  margin: 20%;
+  display: block;
+}
+
+.cg {
+  color: green;
+}
+
+.pending {
+  color: red;
+  cursor: pointer;
+}
+
+.error_message {
+  width: 500px;
+  font-size: 24px;
+  margin: 50px auto auto auto;
+  text-align: center;
+  color: #999;
+}
+
+.payment_content-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.payment_content-totalBox {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  flex-grow: 2;
+}
+
+.send_btn {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.mw430 {
+  min-width: 430px;
+}
+
+.sent {
+  width: auto;
+  align-items: flex-start;
+}
+
+.payment_data {
+  max-width: 400px;
+  margin-left: 10%;
+}
+
+.tag_reason {
+  /* margin-right: 28px; */
+  /* margin-left: 10px; */
+  color: rgba(107, 67, 181, 1) !important;
+  border-radius: 50px;
+  border: 1px solid rgba(107, 67, 181, 1) !important;
+  position: relative;
+  /* left: 8px; */
+}
+
+.invoice_color {
+  color: #722ed1;
+}
+
+.lineHeightModalStyle {
+  line-height: 3;
+}
+
+.fullWidth100p {
+  width: 100%;
+}
+
+.flex-row-evenlyy {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.flex-row12{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    /* width: 100% !important; */
+    margin-top: 28px;
+}
+
+.reason-span {
+  margin-left: auto;
+}
+
+.reason-color {
+color: black;
+font-size: 14px
+  /* margin-left: 15px */
+  ;
+}
+
+.flex-row123{
+  display: flex !important;
+  flex-direction: row !important;
+  /* width: 100% !important; */
+  margin-top: 20px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
+.card-size11 {
+  width: 205px !important;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+}
+
+@media (max-width: 768px) {
+  .card-size11 {
+    width: 145px !important;
+  }
+}
+
+.flex-row111{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.amount-size-color {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: black!important;
+}
+
+.reason-span1 {
+  margin-left: auto;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: rgba(107, 67, 181, 1)!important;
+}
+
+.tag-mr {
+  /* margin-right:10px ; */
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100%!important;
+}
+
+/* .centered-placeholder {
+  text-align: center; 
+} */
+
+ /* .ant-input-affix-wrapper > input.ant-input  {
+  padding-top: 10px !important;
+} */
+
+@media (max-width: 500px) {
+  .tag_reason {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+  .tag-mr {
+    /* margin-right:10px ; */
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%!important;
+  }
+}
+
+ .ant-modal .ant-modal-content {
+  /* padding: 30px !important; */
+}

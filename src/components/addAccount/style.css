@@ -1,0 +1,33 @@
+.addaccount_create-new {
+  color: #9340ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addaccount_banks {
+  margin-bottom: 12px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+.addaccount_newbank {
+  color: #9340ff;
+  cursor: pointer;
+}
+.addaccount_loading {
+  justify-content: center;
+  display: flex;
+  height: 250px;
+}
+.addaccount_asc {
+  align-self: center;
+} 
+
+.addaccount_bank-account-card-row {
+  display: flex;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.mt30N{
+  margin-top: -20px;
+}

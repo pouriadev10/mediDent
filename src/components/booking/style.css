@@ -1,0 +1,11 @@
+.booking_mainloading-color {
+  color: rgb(93, 0, 254) !important;
+  height: 45;
+  width: 45;
+}
+
+.booking_stepone-mainloading {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}

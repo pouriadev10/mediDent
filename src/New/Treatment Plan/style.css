@@ -1,0 +1,159 @@
+.link-text {
+  color: #6b43b5;
+}
+
+.notice-text-treatment-plan {
+  font-size: 14px;
+  margin-left: 15px 0px;
+}
+
+.treatment-title {
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.request-appointment-btn {
+  background-color: #6b43b5;
+  color: white;
+  min-width: 218px;
+  min-height: 34px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+.request-appointment-btn:hover {
+  color: white;
+}
+
+.text-on-tooths {
+  font-weight: 500;
+  font-size: 30px;
+  position: absolute;
+  top: 230px;
+  left: 166px;
+}
+
+.text-on-tooths2 {
+  font-weight: 500;
+  font-size: 30px;
+  position: absolute;
+  top: 80px;
+  left: 155px;
+}
+
+.inner-border-new-cards {
+  border: 1px solid #f0f0f0f0;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.downloadIconContainer {
+  border-radius: 50%;
+  background-color: #6b43b5;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.imageFileContainer {
+  position: relative;
+  /* Existing styles */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  /* You can adjust the max-width value as needed */
+  .imageFileContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure it takes full width on mobile */
+  }
+}
+
+@media (max-width: 767px) {
+  /* You can adjust the max-width value as needed */
+  .new-cards {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 150px; */
+    border-radius: 4px;
+    height: 100% !important;
+    background: #ffffff;
+    margin-top: 10px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .resp-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+    .resp-logo {
+      margin-right: auto;
+      margin-left: 0px;
+    }
+  }
+
+.card-in-modal {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  width: 612px;
+}
+
+.insideCardModal {
+  padding: 20px;
+}
+
+.doctor-font {
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+/* Hide the table header */
+.nested-table-no-header .ant-table-thead {
+  display: none;
+}
+
+/* Remove any residual padding or margin */
+.nested-table-no-header .ant-table-container table > thead {
+  display: none !important;
+}
+
+/* Adjust the top margin to eliminate the gap */
+.nested-table-no-header .ant-table-content {
+  margin-top: -16px; /* Adjust this value as needed */
+}
+
+.div-table2 {
+  width: 100% !important;
+  max-height: 350px !important;
+  overflow-x: auto !important; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  border: 1px solid rgba(240, 240, 240, 1);
+  border-radius: 8px;
+  white-space: nowrap; /* Prevent line wrapping in case of text */
+}
+
+.div-table2::-webkit-scrollbar {
+  height: 5px !important; /* Set height for the horizontal scrollbar */
+}
+
+.div-table2::-webkit-scrollbar-thumb {
+  background-color: #6b43b5 !important;
+  border-radius: 20px !important;
+}
+
+.div-table2::-webkit-scrollbar-track {
+  background-color: none !important;
+}
+/* Use higher specificity and !important to override Ant Design styles */
+.hidden-row.ant-table-row {
+  display: none !important;
+}

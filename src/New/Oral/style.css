@@ -1,0 +1,163 @@
+.square01 {
+    padding: 10px;
+    /* background-color: white;
+    border: 1px solid #ccc; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 15px;
+    border-radius: 8px;
+    position: relative;
+    min-height: 100%;
+    min-width: 250px;
+}
+
+
+.triangle01 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.iconCardOral {
+    border-radius: 8px;
+    padding: 3px;
+    background-color: #6B43B5;
+}
+
+.iconCardOralReport {
+    border-radius: 8px;
+    width: 50px;
+    padding: 10px;
+    background-color: #6B43B5;
+}
+
+.titleOralCard {
+    color: #6B43B5;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subTitleOralCard {
+    margin-top: 5px;
+    color: #979797;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.oralSmallCard {
+    min-height: 100%;
+    padding: 15px;
+    background-color: #EAE7FF;
+    border-radius: 8px;
+    margin: 5px !important;
+}
+
+.oralSmallCardSidebar {
+    min-height: 100%;
+    padding: 25px;
+    background-color: #EAE7FF;
+    border-radius: 8px;
+    margin-top: 5px !important;
+    width: 100%;
+}
+
+.mainReport {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.insideNewCardsMainReport {
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.report-title-text {
+    color: #4D3280;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.report-subtitle-text {
+    color: #979797;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card-title-of-section {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.preventativeCareCard {
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    min-width: 100%;
+}
+
+.preventativeCareCardTitle {
+    font-weight: 400;
+    font-size: 10px;
+    color: #6B43B5;
+    margin-bottom: 1px;
+}
+
+.preventativeCareCardSubTitle {
+    font-weight: 400;
+    font-size: 7px;
+    color: #979797;
+    margin: 0px;
+}
+
+.preventativeCareCard-container {
+    padding: 2px 5px;
+}
+
+.tooth-image-container {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.relatedTreatmentPlanCard {
+    font-weight: 400;
+    font-size: 10px;
+    color: #6B43B5;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.relatedTreatmentPlanCardSub {
+    color: #979797;
+    font-weight: 400;
+    font-size: 7px;
+}
+
+.bookTreatmentBtn {
+    margin-top: 18px;
+    background-color: #6B43B5;
+    color: white;
+    width: 100%;
+    border-radius: 85px;
+    font-weight: 400;
+    font-size: 8px;
+}
+
+.providerAvatarRelatedBooking {
+    border: 1px solid #6B43B5;
+    border-radius: 50%;
+}
+
+.relatedProviderCardInfo {
+    font-weight: 400;
+    font-size: 8px;
+}

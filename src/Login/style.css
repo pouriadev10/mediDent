@@ -1,0 +1,474 @@
+.login-container {
+  min-height: 100vh;
+}
+
+.sider-cover-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.login-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.login-subtitle {
+  color: #6b43b5;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.input-lable {
+  color: #5d3b9c;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  padding: 9px 16px;
+  background: #6b43b5;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 20px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.forgotpass-text {
+  text-align: center;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  color: #6b43b5;
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.modal-titr {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.modal-sub-titr {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.done-button {
+  background: #6b43b5;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 20px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.recive-sms-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.recive-sms-text {
+  color: #9176dc;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.question-multiple-office {
+  color: #6b43b5;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10%;
+  margin-bottom: 5px;
+}
+
+.ant-input-search-address::placeholder {
+  color: #cecbcb; /* Change this to your desired color */
+  opacity: 1;
+}
+
+.ant-input-search-address {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px 11px;
+  color: #d9d9d9;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.box-onboarding-text {
+  background: rgba(223, 218, 255, 0.7);
+  /* supplement/Triantry */
+  border: 2px solid #bfb6ff;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+  color: #848696;
+  padding: 30px 50px;
+}
+
+.skip-btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #6b43b5;
+  cursor: pointer;
+}
+
+.card-box-text-title-onboarding {
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6b43b5;
+}
+
+.custom-table-container {
+  position: relative;
+}
+
+.custom-table {
+  background: rgba(223, 218, 255, 0.8);
+  border-radius: 9px;
+  border:  1px solid #BFB6FF;
+  max-height: 150px !important;
+  overflow-y: auto !important;
+}
+
+.custom-table .ant-table-tbody > tr > td, .ant-table-thead > tr > th {
+    height: auto !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1 !important;
+    /* background: inherit !important; */
+}
+
+.custom-table::-webkit-scrollbar {
+    width: 5px !important;
+    color: #DFDAFF !important;
+
+    
+  }
+  
+  .custom-table::-webkit-scrollbar-thumb {
+    background-color: #DFDAFF !important;
+    border-radius: 500px !important ;
+    color: #DFDAFF !important;
+  }
+  
+  /* .custom-table::-webkit-scrollbar-track {
+    background-color: none !important;
+    color: #DFDAFF !important;
+
+  } */
+
+  .custom-table .ant-table-header > tr > th {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: inherit;
+  }
+
+  .custom-table::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Color of the scrollbar track */
+  }
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #e6e6fa; /* Light purple background */
+  color: #6a0dad; /* Purple text color */
+  font-size: 12px; /* Smaller font size */
+  height: 35px !important;
+}
+
+.add-message {
+  color: #5d3b9c;
+  margin-top: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.card-subscription-onboarding {
+  border-radius: 8px;
+  background-color: #e0ddf7;
+  border: 1px solid #e0ddf7;
+  width: 80%;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.card-subscription-onboarding-white {
+  border-radius: 8px;
+  border: 1px solid #e0ddf7;
+  width: 80%;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.trash-action-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.subscription-badge {
+  background-color: #d7ffd6;
+  color: #23d020;
+  border-radius: 8px;
+  padding: 1px;
+}
+
+.line-result {
+  border: 1px solid hsl(247, 100%, 86%);
+  width: 100%;
+  margin: 12px 0px 12px 0px;
+}
+
+.dragDroptext {
+  color: #777;
+}
+
+.dragDropBtn {
+  color: #6b43b5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.drop-zone {
+  border: 2px dashed #d9d9d9;
+  border-width: 2px;
+  /* Set your desired border color */
+  background-color: #ffffff;
+  /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.ant-form-item-required::before {
+  content: "" !important;
+}
+
+td:has(.lastAntdTableColumn) {
+  background-color: white;
+}
+
+.card-pms {
+  border: 1px solid #e0ddf7;
+  border-radius: 8px;
+  margin: 10px 0px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.selected-card-pms {
+  border: 1px solid #e0ddf7;
+  border-radius: 8px;
+  margin: 10px 0px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #e0ddf7;
+}
+
+/* App.css */
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-item {
+  margin-bottom: 0px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 39px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.ant-form-item {
+  /* margin-bottom: 0px; */
+}
+
+.ant-input-affix-wrapper {
+  padding-top: 0px;
+}
+
+.ant-input-affix-wrapper .ant-input-prefix {
+  padding-top: 7px;
+}
+
+.mtb {
+  margin-bottom: 37px !important;
+  margin-top: 15px !important;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner::after {
+  background: #6b43b5;
+}
+
+:where(.css-dev-only-do-not-override-zclr10).ant-radio-wrapper
+  .ant-radio-checked
+  .ant-radio-inner {
+  background: #ffffff;
+}
+
+.custom-card129 .ant-card-body {
+  padding: 0 !important;
+}
+
+.custom-card129 {
+  position: relative;
+  border-radius: 8px;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-bottom: 12px !important;
+  width: 100%;
+  height: 80px;
+  display: flex !important;
+}
+
+.custom-card1290 {
+  position: relative;
+  border-radius: 8px;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-bottom: 12px !important;
+  width: 95%;
+  height: 121px;
+  display: flex !important;
+}
+
+.custom-card1290 .ant-card-body {
+  width: 100%;
+  padding: 10px;
+}
+
+.selected-card {
+  background: rgba(224, 221, 247, 1);
+}
+
+.not-selected-card {
+  background: white;
+  border: 1px solid rgba(201, 193, 241, 0.3);
+}
+
+.custom-checkbox {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  z-index: 1000;
+}
+
+.custom-checkbox .ant-checkbox-inner {
+  border-radius: 50%;
+}
+
+.custom-checkbox .ant-checkbox,
+.custom-checkbox .ant-checkbox-inner,
+.custom-checkbox .ant-checkbox-input {
+  width: 24px;
+  height: 24px;
+}
+
+.custom-checkbox .ant-checkbox-inner::after {
+  width: 5px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.6px;
+  margin-bottom: 6px !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custom-checkbox .ant-checkbox-input:checked + .ant-checkbox-inner {
+  border: 4px solid white !important;
+}
+
+.custom-checkbox .ant-checkbox-input:not(:checked) + .ant-checkbox-inner {
+  width: 18px;
+  height: 18px;
+}
+
+.custom-checkbox
+  .ant-checkbox-input:not(:checked)
+  + .ant-checkbox-inner::after {
+  width: 14px;
+  height: 14px;
+}
+
+.image-pay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.rowbox {
+  width: 100% !;
+}
+
+.custom-label {
+  color: #5d3b9c;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}

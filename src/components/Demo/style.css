@@ -1,0 +1,25 @@
+.demo_mt15 {
+    margin-top: 15px;
+}
+
+.demo_mt10 {
+    margin-top: 10px;
+}
+
+.demo_mb25 {
+    margin-top: 25px;
+}
+
+.demo_pass {
+    max-width: 315px;
+    margin-left: 15px
+}
+
+.demo_ml0 {
+    margin-left: 0px;
+}
+
+.demo_registration-field {
+    max-width: 300px;
+    margin-left: 25px
+}

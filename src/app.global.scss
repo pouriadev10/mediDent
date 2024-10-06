@@ -1,0 +1,149 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import '~bootstrap-daterangepicker/daterangepicker.css';
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url('./assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+.footer ul.menu {
+  padding: 0;
+  margin:25px auto;
+  font-size:12px;
+  width:300px;
+  display:flex;
+}
+.footer ul.menu li {
+  list-style-type: none;
+  flex-grow:1;
+  text-align:center;
+}
+.footer ul.menu li a {
+  color: #aaa;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer ul.menu li a.active,
+.footer ul.menu li a:hover{
+  color:#777;
+}
+
+.top-bar {
+  padding:7px 15px;
+  background:white;
+  // border-bottom:2px solid rgba(0,0,0,0.07);
+  display:flex;
+}
+.top-bar > div {
+  flex-grow:1;
+  display:flex;
+}
+.top-bar .seperator {
+  flex-grow:1;
+}
+.top-bar .logo {
+  height:40px;
+  margin:auto;
+}
+.top-bar .clinic-logo {
+  max-height:25px;
+  margin-left:15px;
+  vertical-align: middle;
+}
+.top-bar ul.menu li {
+  display: inline;
+  list-style-type: none;
+  margin-left:25px;
+}
+.top-bar ul.menu li:last-child{
+  border-left: 2px solid #eee;
+}
+.top-bar ul.menu {
+  margin-top: 15px;
+  margin-right:15px;
+  display:inline-block;
+}
+.top-bar ul.menu li a {
+  color: #888;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size:12px;
+}
+.top-bar ul.menu li a.active,
+.top-bar ul.menu li a:hover{
+  color:#000;
+}
+
+.dashboard-container .alert {
+  padding:15px;
+  font-size:14px;
+  color:rgb(206, 72, 72);
+}
+.dashboard-container .page-header {
+  padding:20px;
+  line-height:20px;
+}
+.dashboard-container .page-header .title {
+  font-size:24px !important;
+  margin-bottom:25px;
+}
+.dashboard-container .page-header .summary-line {
+  color:#999;
+}
+.dashboard-container .page-header span:first-child {
+  display:inline-block;
+  color:#666;
+  width:80px;
+}
+.dashboard-container .page-header span:last-child {
+  color:rgb(33, 84, 194);
+  padding-left:2px;
+}
+.dashboard-container .page-header span.paid {
+  color:rgb(0, 168, 90);
+}
+
+.dashboard-container .search-bar-container {
+  display: flex;
+  flex-direction: row;
+  padding:0px 20px;
+  margin-top:0px;
+}
+.dashboard-container .search-bar-container > div:first-child {
+  flex-grow: 1;
+}
+.dashboard-container .search-bar-container > div:first-child > div{
+  margin:0;
+  background-color:white;
+}
+.dashboard-container .search-bar-container > div:first-child > div svg {
+  opacity:0.5;
+}
+.dashboard-container .requests {
+  border-top: 2px solid rgba(0,0,0,0.07);
+  border-bottom: 2px solid rgba(0,0,0,0.07);
+  margin:15px 0;
+  background: white;
+  min-height:300px;
+  overflow:auto;
+}
+
+.dashboard-container .requests td.status-pending,
+.dashboard-container .requests td.status-paid {
+  text-align: center;
+}
+.dashboard-container .requests td.status-pending {
+  color:rgb(33, 84, 194);
+}
+.dashboard-container .requests td.status-pending:after{
+  content:'PENDING';
+}
+.dashboard-container .requests td.status-paid {
+  color:rgb(0, 168, 90);
+}
+.dashboard-container .requests td.status-paid:after{
+  content:'PAID';
+} 

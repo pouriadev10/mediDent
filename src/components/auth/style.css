@@ -1,0 +1,37 @@
+.auth_fw500 {
+  font-weight: 500px;
+}
+.auth_tal {
+  text-align: left;
+}
+.auth_check_email {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 50px;
+  color: #444;
+}
+.auth_pin {
+  color: #444;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.auth_pin-color {
+  color: #777;
+}
+.auth_cp {
+  cursor: pointer;
+} 
+.auth_w70p {
+  width: 70%;
+} 
+.auth_register-form {
+  margin-bottom: "25px";
+  min-width: 275px;
+}
+.auth_register-logo {
+  width: 150px;
+  height: 50px;
+} 
+.auth_mw300 {
+  max-width: 300px;
+} 

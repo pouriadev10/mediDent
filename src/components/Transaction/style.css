@@ -1,0 +1,67 @@
+.transaction_mw250 {
+  width: 206px;
+  border-radius: 30px;
+  border: 1px solid rgba(107, 67, 181, 1)
+} 
+
+.flex_end {
+  margin-left: 25px;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex;
+}
+
+.transaction_lh35 {
+  line-height: 35px;
+}
+
+.transaction_tag {
+  margin-right: 0px;
+  margin-left: 2px;
+}
+
+.transaction_reason {
+  text-align: end;
+  max-width: 320px;
+  margin-left: 15px;
+}
+
+.centerTble-action th.column-action {
+  text-align: center !important;
+  margin-left: 20px !important;
+}
+
+.transaction_mw250 .ant-input-affix-wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px; /* or any fixed height you prefer */
+  padding-top: 0 !important;
+}
+
+.transaction_mw250 .ant-input-affix-wrapper input {
+  flex: 1;
+  height: 100%;
+  padding: 0 !important;
+  text-align: center;
+  line-height: 40px; /* Match this to the input height */
+  box-sizing: border-box;
+}
+
+.transaction_mw250 .ant-input-affix-wrapper input::placeholder {
+  line-height: 40px; /* Match this to the input height */
+  text-align: center;
+}
+
+.ant-input-affix-wrapper .ant-input-prefix {
+  padding-top: 0px !important;
+  padding-right: 5px;
+}
+
+.ant-progress .ant-progress-steps-item {
+  width: object-fit !important;
+  margin-inline-end: 8px !important
+}
+
+.ant-progress .ant-progress-text {
+  display: none; /* Hide text labels */
+}

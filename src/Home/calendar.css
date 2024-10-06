@@ -1,0 +1,40 @@
+.selected {
+  background-color: #6b43b5 !important;
+  border: 2px solid #6b43b5;
+  color: white !important;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+.today {
+  background-color: rgba(147, 120, 217, 0.2);
+  color: white !important;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+.calander-hover:hover {
+  background-color: rgba(147, 120, 217, 0.1);
+  color: white !important;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  padding-inline-end: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+.ant-picker-calendar-mode-switch {
+  display: none;
+}

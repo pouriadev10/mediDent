@@ -1,0 +1,8 @@
+.appointment_edit {
+  color: #0981c8;
+  cursor: pointer;
+}
+.appointment_approve {
+  color: green;
+  cursor: pointer;
+}

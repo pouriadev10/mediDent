@@ -1,0 +1,16 @@
+:where(.css-dev-only-do-not-override-1urz7rv).ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: "";
+}
+
+:where(.css-dev-only-do-not-override-1urz7rv).ant-form-item .ant-form-item-label {
+    text-align: left !important;
+}
+
+.ant-row.ant-form-item-row.css-dev-only-do-not-override-1urz7rv {
+    display: block !important;
+}
+
+.delete-row {
+    cursor: pointer;
+    color: red;
+}

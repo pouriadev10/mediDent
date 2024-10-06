@@ -1,0 +1,57 @@
+.plan_table {
+  width: auto;
+  overflow: auto;
+  border: 1px solid rgba(240, 240, 240, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+
+}
+
+.newplan_container {
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.newplan_btn {
+  color: white;
+}
+
+.plan_edit {
+  color: green;
+  cursor: pointer;
+}
+
+.plan_delete {
+  color: red;
+  cursor: pointer;
+}
+
+.plan_loading {
+  min-width: 100px;
+  margin-left: 5px;
+}
+
+.plan_close {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+}
+
+.create-btn {
+  width: 173px !important;
+  height: 34px !important;
+  background: #6b43b5 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+  border-radius: 5000px !important
+}
+
+.newplan_container {
+  margin-bottom: 30px;
+}
+
+.plan-text {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}

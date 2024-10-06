@@ -1,0 +1,13 @@
+.edit-text {
+    color: green;
+    cursor: pointer;
+}
+
+.remove-text {
+    color: red;
+    cursor: pointer;
+}
+
+.new-button {
+    padding: 2px 30px;
+}

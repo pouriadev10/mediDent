@@ -1,0 +1,121 @@
+.services_row {
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.cw {
+  color: white;
+}
+.services_edit {
+  color: green;
+  cursor: pointer;
+}
+.services_delete {
+  color: red;
+  cursor: pointer;
+}
+.service_create {
+  min-width: 100px;
+  margin-left: 5px;
+}
+.service_close-edit {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+}
+.service_update {
+  min-width: 100px;
+  margin-left: 5px;
+}
+.services_close {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.paymentRequestContent {
+  margin-top: 35px !important;
+}
+
+.font-20-500 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.create-btn {
+  width: 173px !important;
+  height: 34px !important;
+  background: #6b43b5 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+}
+
+.margin-bt {
+  margin-bottom: 16px !important;
+  margin-top: 30px !important;
+  font-size: 14px;
+}
+
+.input-area {
+  width: 290px !important;
+  height: 39px !important;
+  border: 1px solid rgba(107, 67, 181, 1)!important;
+}
+
+.flex-roww {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-bottom: 25px;
+}
+
+.cost-input {
+  width: 101px;
+  height: 39px;
+  border: 1px solid rgba(107, 67, 181, 1)!important;
+}
+
+/* .modal-size {
+  min-width: 538px !important; */
+/* height: 444px !important; */
+/* box-shadow: 0px 0px 10px 0px #00000026;
+
+} */
+
+.margin-l {
+  margin-left: 60px;
+  /* margin-top: 41px; */
+}
+
+.text-area-size {
+  width: 290px;
+  height: 252px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #979797 !important;
+}
+
+.modal-size .ant-modal-body {
+  /* min-height: 444px !important; */
+  /* width: 538px !important; */
+  overflow-y: auto;
+}
+
+/* .margin-tp {
+  margin-bottom: 16px !important;
+  margin-top: 30px !important;
+  font-size: 14px;
+} */
+
+.formLabel {
+  margin-bottom: 16px !important;
+  font-size: 14px !important;
+  color: #000000;
+}
+
+.service_create {
+  width: 139px !important;
+  height: 38px !important;
+  /* padding: 16px !important; */
+  border-radius: 5000px !important;
+  gap: 8px !important;
+  font-size: 16px !important;
+}

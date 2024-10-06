@@ -1,0 +1,143 @@
+.profile_editprofile {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.profile_editicon {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.profile_upload {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.profile_upload-btn {
+  margin: 0px !important;
+}
+
+.profile_upload-img {
+  position: relative;
+  width: 148px;
+  height: 148px;
+  border-radius: 95px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  /* border: 4px solid rgba(201, 193, 241, 1); */
+  top: -73px !important;
+  left: 46px;
+}
+
+.input_profile {
+  padding: 12px 22px;
+}
+
+.red {
+  color: red;
+}
+
+.profile_save-btn-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile_save-btn {
+  padding: 0 45px !important;
+  height: 60px !important;
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+}
+
+.check_review {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+ 
+.filter_btn {
+  width: 250px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  color: #b7b7b7;
+  border: none;
+  margin-bottom: 40px;
+  padding: 25px 18px;
+}
+
+.filter_span {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.filter_span2 {
+  justify-content: space-between;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.review_m0 {
+  margin: 0px;
+}
+
+.review_card {
+  width:  calc(100% - 40px);
+  margin:  20px;
+  overflow-y:  auto;
+  border:  none;
+  border-radius:  8px;
+}
+
+/* Targeting the stars within the Rate component */
+.custom-rate .ant-rate-star {
+  margin-right: 47px; /* Decrease the distance between stars */
+}
+
+.custom-rate .ant-rate-star .ant-rate-star-full,
+.custom-rate .ant-rate-star .ant-rate-star-zero {
+  border-radius: 100px; /* Rounded corners for stars */
+}
+
+.custom-upload-list {
+  display: flex;
+  width: 143px;
+  height: 96px;
+  margin-right: 10px; 
+  overflow: hidden;
+}
+
+ .ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item {
+  width: 143px !important; 
+  height: 96px !important;
+  margin-right: 10px !important;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container {
+  width: 50 !important;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container {
+  width: 148px !important;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select {
+  width: 143px !important;
+  height: 96px !important;
+  border-width: 2px;
+  background: white !important;
+}
+
+.line-14{
+  margin-bottom: 50px;
+}

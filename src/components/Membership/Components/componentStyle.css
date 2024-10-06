@@ -1,0 +1,106 @@
+.rowBorder {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actionColumn {
+  display: flex !important;
+  border: 0px !important;
+  justify-content: end !important;
+  margin-top: 20px !important;
+}
+
+.profileColumn {
+  display: flex;
+  margin-top: 9px !important;
+}
+
+.nameAndPlanColumn {
+  margin-left: 10px;
+}
+
+.planSubColumn {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.paginationSubTable {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+}
+
+.grayCardMain {
+  color: #727272;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  width: fit-content;
+  padding: 9px;
+  height: 40px;
+}
+
+.grayCardMainValue {
+  margin-left: 15px;
+  color: #2680eb;
+  font-weight: bold;
+}
+
+.view {
+  margin-left: 15px;
+  color: #2680eb !important;
+  font-weight: bold;
+}
+
+.triangle .triangle-bottom-right {
+  border-bottom: 20px solid #a351ff;
+  border-left: 100px solid transparent;
+} 
+
+.membership_history-label {
+  color: #a351ff;
+  font-weight: bold;
+}   
+
+.blueCardMain {
+  height: 131px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  background: rgba(223, 218, 255, 0.7) !important;
+  border-radius: 8px;
+  width: 33.5%;
+}
+.circle {
+  height: 82px;
+  width: 82px;
+  border-radius: 100%;
+  background: #7F59CE;
+  filter: opacity(25%);
+  margin-left: 25px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+
+.blueCardMainName {
+  font-size: 20px;
+  margin-left: 15px;
+  color:  #4D3280;
+  font-weight: 400px;
+}
+
+.icon-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.blueCardMainValue {
+  font-size: 24px;
+  margin-left: 15px !important;
+  color:  #4D3280 !important;
+  font-weight: 600 !important;
+}

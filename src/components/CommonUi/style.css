@@ -1,0 +1,113 @@
+.commmonui_w100 {
+    width: 100%;
+}
+
+.commmonui_modal-button {
+    min-width: 150px;
+    margin-left: 5px;
+}
+
+.commonui_mb10 {
+    margin-bottom: 10px;
+}
+
+.commonui_ml5 {
+    margin-left: 5px;
+}
+
+.commonui_closebutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+
+.commonui_description {
+    display: flex;
+    justify-content: space-between
+}
+
+.commonui_mw70 {
+    min-width: 70px;
+}
+
+.commonui_cardaccount {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+
+.commonui_w100 {
+    width: 100%;
+}
+
+.commonui_addbank {
+    min-width: 150px;
+    margin-left: 5px
+}
+
+.commonui_w50 {
+    width: 50%;
+}
+
+.commonui_df {
+    display: flex;
+}
+
+.commonui_fs12 {
+    font-size: 12px;
+}
+
+.commonui_spin {
+    height: 60px;
+    margin-top: 35px
+}
+
+.commonui_dn {
+    display: none;
+}
+
+.commonui_mb5 {
+    margin-bottom: 5px;
+}
+
+.commonui_mr8 {
+    margin-right: 8px
+}
+
+.commonui_upload {
+    color: #111;
+    background-color: #E4DCF5;
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #7A08FA;
+    cursor: pointer;
+    max-width: 360px;
+    min-width: unset;
+    padding: 15px;
+}
+
+.commonui_img {
+    cursor: pointer;
+    width: 225px;
+    height: 90px
+}
+
+.commonui_tac {
+    text-align: center;
+}
+
+.commonui_mb0 {
+    margin-bottom: 0;
+}
+
+.commonui_uploadcontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px
+}
+
+.commonui_mt10 {
+    margin-top: 10px;
+}

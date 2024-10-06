@@ -1,0 +1,52 @@
+.card-provider {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-top: 22px;
+    padding-left: 25px;
+    padding-top: 20px;
+    /* padding-right: 30px; */
+}
+
+.title-provider {
+    margin-left: 32px;
+    margin-top: 52px;
+}
+
+.radio-provider {
+    display: flex;
+    flex-direction: row;
+}
+.mr-radio {
+    margin-right: 40px;
+}
+
+.formLabel {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-provider {
+    width: 208px;
+    height: 45px;
+    background: #6B43B5;
+    color: #FFFFFF;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+    margin-right: auto;
+    /* margin-left: 0px; */
+}

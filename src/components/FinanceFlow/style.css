@@ -1,0 +1,332 @@
+.ant-steps-icon {
+  color: white !important;
+}
+
+.ant-steps-item-icon {
+  border: 0px !important;
+  background-color: #7b31fc !important;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: #b791f9 !important;
+}
+
+.cardInMainCard {
+  margin-right: 3%;
+  overflow: initial !important;
+}
+
+.cardWrapper {
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto !important;
+  width: 90%;
+  scroll-behavior: smooth;
+}
+
+.cardWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.cardInMainRowItem {
+  padding: 15px 2px;
+  margin: 15px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 2%;
+  overflow: auto !important;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.cardInMainRowItemImage {
+  width: 170px;
+  margin: 10px 0px 0px 0px;
+}
+
+.backArrowHolder {
+  border: 0px solid gray !important;
+  cursor: pointer;
+  background-color: #e3e3e3;
+  outline: none important;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backArrowHolder:hover {
+  border: 0px solid gray !important;
+  cursor: pointer;
+  background-color: #e3e3e3;
+  outline: none important;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backArrowHolder:focus {
+  border: 0px solid gray !important;
+  outline: none important;
+  cursor: pointer;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backArrowHolder:active {
+  border: 0px solid gray !important;
+  outline: none important;
+  cursor: pointer;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.describePlanCardItem {
+  max-width: 60%;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+.titlePlanCardItemRow {
+  justify-content: center;
+  display: flex;
+  margin-top: 8%;
+}
+
+.buttonRowInCard {
+  margin-top: 10%;
+}
+
+.detailBtn {
+  width: 20%;
+  box-sizing: unset;
+  border-radius: 4px;
+  color: #9340ff;
+  border: solid 1px #9340ff;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+.purchaseBtn {
+  width: 30%;
+  box-sizing: unset;
+  border-radius: 4px;
+  color: #ffffff;
+  border: solid 1px #9340ff;
+  background-color: #9340ff;
+  margin-right: 10px;
+}
+
+.financeflow_w100 {
+  width: 100px;
+}
+
+.financeflow_fwb {
+  font-weight: bold;
+}
+
+.financeflow_radiocolor {
+  color: #9340ff !important;
+}
+
+.financeflow_db {
+  display: block !important;
+}
+
+.financeflow_mb25 {
+  margin-bottom: 25px;
+}
+
+.financeflow_p25 {
+  padding: 25px;
+}
+
+.financeflow_mr15 {
+  margin-right: 15px;
+}
+
+.financeflow_ml15 {
+  margin-left: 15px;
+}
+
+.financeflow_mt15 {
+  margin-top: 15px !important;
+}
+
+.financeflow_w400 {
+  width: 400px;
+}
+
+.financeflow_plan {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.financeflow_step {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.financeflow_loading {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.financeflow_mt1 {
+  margin-top: 1%;
+}
+
+.financeflow_progresscontainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.financeflow_progress {
+  color: #5d00fe;
+}
+
+.financeflow_dc {
+  color: #5d00fe;
+}
+
+.financeflow_mt30 {
+  margin-top: 30%;
+}
+
+.financeflow_search-color {
+  color: #777;
+}
+
+.financeflow_finance {
+  font-weight: bold;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+  max-width: 80%;
+  flex-wrap: nowrap;
+}
+
+.financeflow_mainpage {
+  margin-top: 0%;
+  margin-right: 10%;
+  margin-left: 10%;
+  max-width: 80%;
+  flex-wrap: nowrap;
+}
+
+.financeflow_financeoption {
+  justify-content: center;
+  display: flex;
+  margin-top: 1%;
+}
+
+.financeflow_aib {
+  align-items: baseline !important;
+}
+
+.financeflow_cost {
+  font-size: 2.3rem;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.financeflow_cost {
+  font-size: 2.3rem;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.financeflow_cost-text {
+  margin-bottom: 0px;
+}
+
+.financeflow_services {
+  margin-left: 5px;
+  display: grid;
+}
+
+.financeflow_mr8 {
+  margin-right: 8px;
+}
+
+.financeflow_back {
+  cursor: pointer;
+  color: #444;
+}
+
+.financeflow_maincard {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  max-width: 80%;
+  flex-wrap: nowrap;
+}
+
+.financeflow_questionspriv-step-container {
+  display: flex;
+  justify-content: center;
+}
+
+.financeflow_questionspriv-step {
+  max-width: 340px;
+}
+
+.financeflow_w100pe {
+  width: 100% !important;
+}
+
+.financeflow_stage2 {
+  margin-bottom: 25px;
+  padding: 25px;
+  min-height: 400px;
+}
+
+.financeflow_mt15m {
+  margin-top: -15px !important;
+}
+
+.financeflow_questionspriv {
+  cursor: pointer;
+  color: red;
+}
+
+.financeflow_mt5 {
+  margin-top: 5px;
+}
+
+.financeflow_taj {
+  margin-top: 5px;
+}
+
+.card-item-finance {
+  margin-right: 8px;
+  font-size: 12px;
+  color: #5d00fe;
+}
+
+.readmore-cart {
+  cursor: pointer;
+  color: #5d00fe;
+}

@@ -1,0 +1,68 @@
+image: node:10.15.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Test & Build
+          caches:
+            - node
+          script:
+            - npm install
+            - CI=true npm test
+            - CI=false REACT_APP_DEPLOYMENT=production npm run build --prod
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy to production
+          deployment: Production
+          trigger: manual
+          script:
+            - echo "Deploying bookc front-end to Production environment from master branch."
+            - scp -r build/** root@app.bookc.com:/var/www/app.bookc.com/
+    dev:
+      - step:
+          name: Test & Build
+          caches:
+            - node
+          deployment: Staging
+          script:
+            - echo "Installing packages..."
+            - npm install
+            - echo "Runing tests..."
+            - CI=true npm test
+            - echo "Building artifact..."
+            - CI=false npm run build --prod
+          artifacts:
+            - echo "The artifact is build/**"
+            - build/**
+      - step:
+          name: Deploy to staging
+          script:
+            - echo "Deploying bookc front-end to staging environment from dev branch."
+            - scp -r build/** root@app.dev.bookc.com:/var/www/app.dev.bookc.com/
+
+      - step:
+          name: Functional Tests
+          caches:
+            - node
+          script:
+            - mkdir -p ~/.ssh
+            - (umask  077 ; echo $FUNC_TEST_REPO_SSH_KEY | base64 --decode > ~/.ssh/functest_repo)
+            - echo "IdentityFile ~/.ssh/functest_repo" >> ~/.ssh/config 
+            - cat ~/.ssh/functest_repo
+            - cat ~/.ssh/config
+            - cd ~
+            - git clone ssh://bitbucket.org/developconquer/bookc-functional-tests.git
+            - cd bookc-functional-tests
+            - npm install
+            - APP_STAGING_URL=https://app.dev.bookc.com npm test
+          services:
+              - selenium
+
+# defining a selenium service that uses selenium/standalone-chrome:3.4.0
+# this service is required to run the automated functional tests using Selenium WebDriver
+definitions:
+    services:
+      selenium:
+          image: selenium/standalone-chrome:3.4.0
